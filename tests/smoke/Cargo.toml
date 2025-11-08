@@ -6,3 +6,5 @@ edition.workspace = true
 
 [dev-dependencies]
 filestorage-core.workspace = true
+tokio.workspace = true
+tempfile = "3"

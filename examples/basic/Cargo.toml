@@ -6,3 +6,4 @@ edition.workspace = true
 
 [dependencies]
 filestorage-core.workspace = true
+tokio.workspace = true

@@ -4,6 +4,7 @@ members = [
     "crates/filestorage-core",
     "examples/basic",
     "tests/smoke",
+    "tests/perf",
 ]
 resolver = "2"
 
@@ -13,3 +14,6 @@ edition = "2024"
 
 [workspace.dependencies]
 filestorage-core = { path = "crates/filestorage-core" }
+axum = { version = "0.7", features = ["macros"] }
+tokio = { version = "1.39", features = ["full"] }
+thiserror = "1.0"
