@@ -1,0 +1,9 @@
+[package]
+name = "filestorage-example-basic"
+publish = false
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+filestorage-core.workspace = true
+tokio.workspace = true

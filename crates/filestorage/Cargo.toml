@@ -1,0 +1,10 @@
+[package]
+name = "filestorage"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+filestorage-core.workspace = true
+axum.workspace = true
+tokio.workspace = true
+serde = { version = "1.0", features = ["derive"] }
