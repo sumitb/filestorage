@@ -1,0 +1,7 @@
+[package]
+name = "filestorage"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+filestorage-core.workspace = true

@@ -1,6 +1,15 @@
-[package]
-name = "filestorage"
+[workspace]
+members = [
+    "crates/filestorage",
+    "crates/filestorage-core",
+    "examples/basic",
+    "tests/smoke",
+]
+resolver = "2"
+
+[workspace.package]
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
+[workspace.dependencies]
+filestorage-core = { path = "crates/filestorage-core" }
